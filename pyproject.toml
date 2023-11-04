@@ -21,7 +21,7 @@ pyobjc-framework-OSAKit = {version = "*", platform="darwin"}
 pytest = "^7.0"
 mypy = "*"
 macholib = {version = "*", platform = "darwin"}  # Needed for pyinstaller
-pyinstaller = {version = "*"}
+pyinstaller = {version = "5.13.2"}
 
 [build-system]
 requires = ["poetry-core"]
